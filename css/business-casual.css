@@ -78,6 +78,10 @@ p {
   font-weight: 100;
 }
 
+.ss {
+  background: rgba(10, 22, 37, 1);
+}
+
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -154,6 +158,18 @@ p {
   .intro .intro-text {
     width: 45%;
   }
+}
+
+.ssdesc {
+padding-top: 5rem;
+padding-bottom: 5rem;
+position: relative;
+padding: 3rem;
+margin: 0.5rem;
+border-radius: 0.5rem;
+content: '';
+background-color: rgba(255, 255, 255, 0.85)
+border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 
 .cta {
@@ -272,8 +288,8 @@ p {
 
 #slideshow {
     margin: auto;
-    margin-bottom:20rem;
-    margin-top:35rem;
+    margin-bottom:15rem;
+    margin-top:25rem;
     position:relative;
     width: 60rem;
     height: 30rem;
