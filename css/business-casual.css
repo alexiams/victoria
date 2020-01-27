@@ -79,7 +79,12 @@ p {
 }
 
 .ss {
-  background: rgba(10, 22, 37, 1);
+  background: rgba(255, 255, 255, 0.85);
+  border-top: 3rem solid #0a1625;
+  border-bottom: 3rem solid #0a1625;
+  margin:auto;
+  margin-bottom: 5rem;
+  max-width:90vw;
 }
 
 .bg-faded {
@@ -165,7 +170,10 @@ padding-top: 5rem;
 padding-bottom: 5rem;
 position: relative;
 padding: 3rem;
-margin: 0.5rem;
+margin: auto;
+font-weight:200;
+word-wrap: break-word;
+max-width:100%;
 border-radius: 0.5rem;
 content: '';
 background-color: rgba(255, 255, 255, 0.85)
@@ -288,13 +296,16 @@ border: 0.25rem solid rgba(255, 255, 255, 0.85);
 
 #slideshow {
     margin: auto;
-    margin-bottom:15rem;
-    margin-top:25rem;
+    margin-bottom:5rem;
+    margin-top:1rem;
     position:relative;
-    width: 60rem;
-    height: 30rem;
+    width: 60rem !important;
+    height: 30rem !important;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
+    max-width:80vw;
+    max-height:45vh;
+
 }
 
 #slideshow > div {
@@ -304,6 +315,8 @@ border: 0.25rem solid rgba(255, 255, 255, 0.85);
     right: 10px;
     bottom: 10px;
     margin:auto;
+    max-width: 80vw;
+    max-height: 45vh;
 }
 
 
@@ -312,9 +325,16 @@ border: 0.25rem solid rgba(255, 255, 255, 0.85);
   max-width:60rem;
   height: 30rem;
   margin:auto;
+  border: 0.5rem solid #0a1625;
+  border-radius:5px;
+  max-width: 80vw;
+  max-height: 45vh;
 
 }
 
 .slides {
 margin:auto;
+
+max-width: 80vw;
+max-height: 45vh
 }
