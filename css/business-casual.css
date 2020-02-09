@@ -78,6 +78,15 @@ p {
   font-weight: 100;
 }
 
+.ss {
+  background: rgba(255, 255, 255, 0.85);
+  border-top: 3rem solid #0a1625;
+  border-bottom: 3rem solid #0a1625;
+  margin:auto;
+  margin-bottom: 5rem;
+  max-width:90vw;
+}
+
 .bg-faded {
   background-color: rgba(255, 255, 255, 0.85);
 }
@@ -154,6 +163,21 @@ p {
   .intro .intro-text {
     width: 45%;
   }
+}
+
+.ssdesc {
+padding-top: 5rem;
+padding-bottom: 5rem;
+position: relative;
+padding: 3rem;
+margin: auto;
+font-weight:200;
+word-wrap: break-word;
+max-width:100%;
+border-radius: 0.5rem;
+content: '';
+background-color: rgba(255, 255, 255, 0.85)
+border: 0.25rem solid rgba(255, 255, 255, 0.85);
 }
 
 .cta {
@@ -284,13 +308,16 @@ p {
 
 #slideshow {
     margin: auto;
-    margin-bottom:20rem;
-    margin-top:35rem;
+    margin-bottom:5rem;
+    margin-top:1rem;
     position:relative;
-    width: 60rem;
-    height: 30rem;
+    width: 60rem !important;
+    height: 30rem !important;
     padding-top:0.5rem;
     padding-bottom:0.5rem;
+    max-width:80vw;
+    max-height:45vh;
+
 }
 
 #slideshow > div {
@@ -300,17 +327,25 @@ p {
     right: 10px;
     bottom: 10px;
     margin:auto;
+    max-width: 80vw;
+    max-height: 45vh;
 }
 
 
 .slide-pics{
   display:inherit;
-  max-width:60rem;
-  height: 30rem;
   margin:auto;
+  align-items: center;
+  border: 0.5rem solid #0a1625;
+  border-radius:5px;
+  max-width: 80vw;
+  max-height: 45vh;
 
 }
 
 .slides {
 margin:auto;
+
+max-width: 80vw;
+max-height: 45vh
 }
